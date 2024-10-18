@@ -753,6 +753,14 @@
 	attack_verb_simple = list("hug", "squeeze")
 	squeak_override = list('sound/items/weapons/thudswoosh.ogg'=1)
 
+/obj/item/toy/plush/spiffo
+	name = "spiffo plushie"
+	desc = "A plushie depicting an overly adorable raccoon!"
+	icon_state = "spiffo"
+	attack_verb_continuous = list("hugs", "squeezes")
+	attack_verb_simple = list("hug", "squeeze")
+	squeak_override = list('sound/items/weapons/thudswoosh.ogg'=1)
+
 /obj/item/toy/plush/rouny
 	name = "runner plushie"
 	desc = "A plushie depicting a xenomorph runner, made to commemorate the centenary of the Battle of LV-426. Much cuddlier than the real thing."
